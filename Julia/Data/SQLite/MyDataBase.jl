@@ -1,6 +1,7 @@
 module MyDataBase
 
-using SQLite, Tables
+using SQLite
+const Tables = SQLite.Tables
 
 #=
 **********************************************
